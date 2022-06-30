@@ -1,6 +1,8 @@
 apply plugin: 'org.springframework.boot'
 
 dependencies {
+	implementation project( ':listar-service')
+	implementation project( ':banco-service')
 	implementation project( ':reactive-web')
     implementation project(':model')
     implementation project(':usecase')
